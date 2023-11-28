@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+*, ::after, ::before{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    line-height: 1.8;
+    background-color: linear-gradient(to right, #396afc, #2948ff, ) !important;
+}
+
+.site{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #2948ff;
+}
+
+.hero-text{
+    position: relative;
+    width: 480;
+}
+
+.hero-text :where(h1, h2){
+    display: flex;
+    flex-direction: column;
+    font-size: 3.5em;
+    font-weight: 800;
+}
+
+.hero-text :where(h1, h2) span{
+    color: #fff;
+    clip-path: polygon(100% 25%, 100% 100%, 0 100%, 0 95%);
+    animation: textanimation 3s forwards;
+    transform: translateX(-50px);
+    opacity: 0;
+}
+
+@keyframes textanimation{
+    0%{
+        clip-path: polygon(100% 25%, 100% 100%, 0 100%, 0 95%);
+        transform: translateX(-50px);
+        opacity: 0;
+    }
+
+    20%{
+        clip-path: polygon(100% 15%, 100% 100%, 0 100%, 0 25%);
+        opacity: 1;
+    }
+
+    80%{
+        clip-path: polygon(100% 10%, 100% 100%, 0 100%, 0 25%);
+        opacity: 1;
+    }
+
+    100%{
+        clip-path: polygon(100% 0%, 100% 100%, 0 100%, 0 100%);
+        opacity: 0;
+    }
+}
+
+.hero-text h1 span:nth-child(2){
+    animation-delay: .2s;
+}
+
+
+.hero-text h2 span:nth-child(1){
+    animation-delay: 4s;
+}
+
+.hero-text h2 span:nth-child(2){
+    animation-delay: 4.1s;
+}
+
+.hero-text h2 span:nth-child(3){
+    animation-delay: 3.9s;
+}
+
+.hero-text h1 span:first-child{
+    color: #ffc300;
+}
+
+.hero-text h2 span:last-child{
+    color: #ff6b81;
+}
