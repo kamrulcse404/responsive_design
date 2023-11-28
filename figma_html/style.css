@@ -1,0 +1,617 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Inter', sans-serif !important;
+}
+
+.nav-link {
+    font-family: 'Inter', sans-serif;
+    color: #0D0A19;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.1px;
+    margin-left: 20px;
+}
+
+.SignUp {
+    color: #9A9EA7;
+
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 21px;
+    /* 150% */
+    letter-spacing: -0.1px;
+}
+
+.SignUp img {
+    background-color: #F5F6F7;
+    border-radius: 10px;
+    width: 30px;
+    height: 25px;
+    padding: 5px 8px;
+    margin-right: 5px;
+}
+
+.section1 {
+    background-image: url("/images/hero.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 560px;
+}
+
+.section1 h1 {
+
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 74px;
+    letter-spacing: -0.305px;
+    padding-top: 100px;
+}
+
+.section1P {
+    color: #FFF;
+
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 27px;
+    margin-top: 20px;
+}
+
+.TopFooterSection {
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 3px 4px 0px rgba(153, 155, 168, 0.15);
+    max-width: 945px;
+    height: 80px;
+    position: absolute;
+    margin: 0px auto;
+    bottom: 70px;
+    left: 50%;
+    z-index: 99;
+    width: 98%;
+    transform: translateX(-50%);
+}
+
+.TopFooterSection p {
+    color: var(--greys-9-a-9-ea-7, #9A9EA7);
+    font-feature-settings: 'clig' off, 'liga' off;
+    /* Regular / 12px / Regular */
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    /* 150% */
+    letter-spacing: -0.1px;
+    margin-left: 15px;
+    /* margin-top: 15px; */
+}
+
+.form-select {
+    color: var(--0-d-0-a-19-primary, #0D0A19);
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    /* Regular / 14px / Bold */
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 21px;
+    /* 150% */
+    letter-spacing: -0.1px;
+    border: none !important;
+    margin-top: -15px;
+}
+
+.WithoutP {
+    margin-top: 35px;
+}
+
+.HeaderButton {
+    border-radius: 10px;
+    background: var(--7963-f-0-primary, #7963F0);
+    color: #fff;
+    padding: 7px 15px;
+    margin-top: -40px;
+    font-weight: 700;
+    color: var(--ffffff, #FFF);
+    font-feature-settings: 'clig' off, 'liga' off;
+    /* Regular / 14px / Bold */
+    font-family: 'Inter';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 21px;
+    /* 150% */
+    letter-spacing: -0.1px;
+}
+
+.HeaderButton img {
+    margin-top: -3px;
+}
+
+.BorderRight {
+    border-right: 1px solid #EDE8E9;
+    height: 40px;
+    margin-top: 20px;
+}
+
+.SomeMargin {
+    margin-top: 30px;
+}
+
+.Section2 {
+    margin-top: 120px;
+    margin-bottom: 100px;
+}
+
+.Section3 h3 {
+    color: #0D0A19;
+
+    font-family: "Inter";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    /* 128.571% */
+    letter-spacing: -0.1px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.Section3 h5 {
+    color: #0D0A19;
+
+    font-family: "Inter";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 27px;
+    /* 150% */
+    margin-top: 10px;
+}
+
+.Section3 p {
+    color: #9A9EA7;
+
+    font-family: "Inter";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    /* 150% */
+    letter-spacing: -0.1px;
+}
+
+.Button1 {
+    border-radius: 10px;
+    background: var(--7963-f-0-primary, #7963F0);
+    color: var(--ffffff, #FFF);
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    /* Regular / 14px / Bold */
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 21px;
+    /* 150% */
+    letter-spacing: -0.1px;
+}
+
+.Button2 {
+    border-radius: 10px;
+    background: var(--7963-f-0-primary, #74727d);
+    color: var(--ffffff, #FFF);
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    /* Regular / 14px / Bold */
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 21px;
+    /* 150% */
+    letter-spacing: -0.1px;
+}
+
+.card {
+    border: none !important;
+}
+
+.FindCarHeader {
+    width: 98%;
+    height: 60px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.Section4 {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.FindCar {
+    color: #0D0A19;
+
+    font-family: "Inter";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    /* 128.571% */
+    letter-spacing: -0.1px;
+}
+
+.arrowArea {
+    margin-top: 30px;
+    color: #9A9EA7;
+
+    text-align: right;
+    font-family: "Inter";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    /* 150% */
+}
+
+header p span {
+    margin: 0px 5px;
+}
+
+.Sedan {
+    color: #0D0A19;
+
+    font-family: "Inter";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 27px;
+    /* 150% */
+}
+
+.ProBTN {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700 !important;
+    font-size: 12px !important;
+    line-height: 18px !important;
+    text-align: center !important;
+    border-radius: 8px !important;
+    color: #b6b2cf !important;
+    background: var(--7963-f-0-primary, #7963F0);
+}
+
+.ProBTN1 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700 !important;
+    font-size: 12px !important;
+    line-height: 18px !important;
+    text-align: center !important;
+    border-radius: 8px !important;
+    color: #7963F0 !important;
+    background: var(--7963-f-0-primary, #b6b2cf);
+}
+
+.product {
+    left: 0;
+    margin: 0 20px 50px 0px;
+    border-radius: 20px;
+    position: relative;
+    min-width: 24%;
+    transition: 0.5s;
+}
+
+.CaroselSection {
+    margin-top: 30px;
+    position: relative;
+}
+
+.btn-find {
+    color: var(--greys-9-a-9-ea-7, #9A9EA7);
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    /* Regular / 14px / Bold */
+    font-family: "Inter";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 21px;
+    /* 150% */
+    letter-spacing: -0.1px;
+    padding: 0 10px;
+}
+
+.active {
+    color: var(--0-d-0-a-19-primary, #0D0A19);
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    /* Regular / 14px / Bold */
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 21px;
+    /* 150% */
+    letter-spacing: -0.1px;
+    border-radius: 8px;
+    border: 1px solid var(--Outline, #EEE);
+    background: var(--ffffff, #FFF);
+}
+
+
+.find-container h3 {
+    color: #0D0A19;
+
+    font-family: "Inter";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    /* 128.571% */
+    letter-spacing: -0.1px;
+}
+
+.PopularP {
+    color: #9A9EA7;
+
+    font-family: "Inter";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    /* 150% */
+    letter-spacing: -0.1px;
+    margin-bottom: 50px;
+}
+
+.findItem img {
+    width: 40px;
+    height: 40px;
+}
+
+.findItem {
+    margin-bottom: 35px;
+}
+
+
+
+.Subaru {
+    color: #0D0A19;
+
+    font-family: "Inter";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 27px;
+    /* 150% */
+}
+
+.Number {
+    color: #9A9EA7;
+
+    font-family: "Inter";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    /* 150% */
+    letter-spacing: -0.1px;
+    margin-top: -15px;
+}
+
+.findDesc {
+    margin-left: 20px;
+}
+
+.marginArrowIcon img {
+    width: 20px;
+    height: 20px;
+    margin-left: 100px;
+}
+
+
+.findDesc1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Number1 {
+    margin-top: 7px;
+}
+
+.PopularP1 {
+    color: #9A9EA7;
+
+    font-family: "Inter";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    /* 150% */
+    letter-spacing: -0.1px;
+}
+
+.sectionFooter {
+    background: #F5F6F7;
+}
+
+.sectionFooter .container {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.footerHeader {
+    color: var(--0-d-0-a-19-primary, #0D0A19);
+    font-feature-settings: 'clig' off, 'liga' off;
+    /* Regular / 14px / Bold */
+    font-family: "Inter";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 21px;
+    /* 150% */
+    letter-spacing: -0.1px;
+    margin-bottom: 15px;
+}
+
+a {
+    text-decoration: none;
+
+    color: var(--greys-9-a-9-ea-7, #9A9EA7);
+    font-family: "Inter";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33px;
+    /* 235.714% */
+    letter-spacing: -0.1px;
+}
+
+ul {
+    list-style-type: none;
+    margin-left: -30px;
+
+
+}
+
+.footerSec {
+    background: #FFF;
+    padding-top: 20px;
+}
+
+.footerFlex {
+    display: flex;
+}
+
+.copy {
+    color: var(--greys-9-a-9-ea-7, #9A9EA7);
+    font-feature-settings: 'clig' off, 'liga' off;
+    /* Regular / 14px / Regular */
+    font-family: "Inter";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    /* 150% */
+    letter-spacing: -0.1px;
+    margin-left: 10px;
+}
+
+.Privacy, .Term {
+    color: var(--0-d-0-a-19-primary, #0D0A19);
+    font-feature-settings: 'clig' off, 'liga' off;
+    /* Regular / 14px / Bold */
+    font-family: "Inter";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 21px;
+    /* 150% */
+    letter-spacing: -0.1px;
+    margin-left: 10px;
+}
+
+.footerControl{
+    display: flex;
+    align-items: center;
+    right: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media all and (max-width:767px) {
+    .section1 h1 {
+        font-size: 38px;
+    }
+
+    .section1P {
+        font-size: 16px;
+    }
+
+    .TopFooterSection {
+        height: 110px;
+        margin-top: -50px !important;
+    }
+
+    .HeaderButton {
+        width: 90%;
+        padding: 17px 0;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+    .Section2 {
+        margin-top: 380px;
+    }
+
+    .Section2 img {
+        margin-top: 20px;
+    }
+
+    .CaroselSection {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .FindCarHeader .arrowArea {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .FindCarHeader h2 {
+        font-size: 20px;
+    }
+
+    .find-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .find-container h3 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .myGrid {
+        width: 50%;
+    }
+
+    .sectionFooter .row {
+        margin-bottom: 50px;
+    }
+
+}
